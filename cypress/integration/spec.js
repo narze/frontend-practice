@@ -5,6 +5,7 @@ describe('Sapper template app', () => {
 
 	it('has the correct <h1>', () => {
 		cy.contains('h1', 'Great success!')
+		cy.contains('figcaption', 'with Tailwind!')
 	});
 
 	it('navigates to /about', () => {
